@@ -17,9 +17,11 @@ has_toc: false
 ### Wifi Support
 Currently Wi-Fi support is only via USB adapters using to 8188eu chipset.  
 To enable it, install this file via muOS Archive Manager.  
-[Enable 8188eu Wi-Fi](../assets/files/Enable_8188eu_28xx.zip)
 
-## Offical Store Page
+Pixie and Beyond Builds: [Enable 8188eu Wi-Fi](../assets/files/Enable_8188eu_28xx_Pixie.muxupd)
+Pre-Pixie Builds:[Enable 8188eu Wi-Fi](../assets/files/Enable_8188eu_28xx.zip)
+
+## Official Store Page
 [https://anbernic.com/products/rg28xx](https://anbernic.com/products/rg28xx)
 
 ## Specs
