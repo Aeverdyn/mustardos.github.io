@@ -11,23 +11,43 @@ note:
 contributors:
   - antikk
   - bitter_bizarro
+  - corey
   - xonglebongle
 
 changes:
+  - Added brightness and volume information
+  - Added combo appending for modules
+  - Added G350 brightness adjustment
+  - Added hotkey negation option
   - Added launch scummvm content by folder
+  - Added scheme support to activity tracker
   - Added sending ClientID with DHCP Request
   - Added support for weird analogue reversals for some devices
-  - Fixed analogue input codes
+  - Adjusted spacing formatting after input struct
   - Fixed <code>eth0</code> not attempting DHCP
+  - Fixed analogue input codes
+  - Fixed collection and history dot file and directory visibility
+  - Fixed CPU governor saving and restore on sleep suspend
   - Fixed false detection of invalid theme resolution
   - Fixed left stick inversion in SDL map
+  - Fixed PPSSPP application missing XDG path set
+  - Fixed recent wake checking for lid based devices
+  - Fixed restore RetroArch Overrides task toolkit script
   - Fixed rumble on content close
+  - Fixed subtle flashing of RetroArch menu upon suspend resume
+  - Modified hotkeys for G350 quirks
+  - Modified input init to detect device type
+  - Modified TrimUI device input daemon
+  - Moved Console Mode detection to common
+  - Optimised input tester to handle G350 quirks
+  - Renamed Console Mode file path checking
   - Stripped line feeds from config variables
   - Updated DHCP for more resilience
   - Updated Retroarch mappings
-  - Fixed PPSSPP application missing XDG path set
-  - Added brightness and volume information
-  - Fixed restore RetroArch Overrides task toolkit script
-  - Fixed CPU governor saving and restore on sleep suspend
-  - Fixed subtle flashing of RetroArch menu upon suspend resume
-  - Fixed recent wake checking for lid based devices
+  - Removed reliance on <code>pv</code> for archive extraction
+  - Updated screenshot tool path
+  - Added attribute cache to GLES state
+  - Added overlay state cache to overlay system
+  - Added overlay texture building functions
+  - Added render path checking and reset functions to overlay stage
+  - Added screenshot grab mode for both <code>fbdev</code> and <code>drm</code> based devices
