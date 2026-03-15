@@ -45,7 +45,7 @@ release. The extension will need to be changed to `.muxzip` firstly to be recogn
 Once you add your purchased files from Lexaloffle you'll need to set MustardOS to use the PICO-8 External emulator.
 
 - Browse to where your PICO-8 games are in MustardOS content explorer.
-- Press select on any of the items and change core.
+- Press ``X`` on any of the items and change core.
 - Select ``PICO-8 (External)`` and press ``X`` to set this core for the whole directory!
 
 ## PICO-8 Standalone Keys
